@@ -1,8 +1,8 @@
-organization := "com.github.olafurpg"
+organization := "com.geirsson"
 
-version := "0.1.0-SNAPSHOT"
+version := "0.1.0"
 
-name := "postgres-driver"
+name := "postgres-slick"
 
 scalaVersion := "2.11.7"
 
@@ -13,5 +13,9 @@ libraryDependencies ++= Seq(
 )
 
 bintrayPackageLabels := Seq("postgres", "driver", "slick")
+
+bintrayVcsUrl := Some("git@github.com:olafurpg/postgres-slick.git")
+
+publishMavenStyle := true
 
 licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
