@@ -1,6 +1,4 @@
-package com.geirsson.slick
-
-import java.util.Date
+package com.github.olafurpg.slick
 
 import com.github.tminglei.slickpg._
 
