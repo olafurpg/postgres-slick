@@ -1,6 +1,6 @@
 organization := "com.github.olafurpg"
 
-version := "0.1.1"
+version := "0.1.2"
 
 name := "postgres-slick"
 

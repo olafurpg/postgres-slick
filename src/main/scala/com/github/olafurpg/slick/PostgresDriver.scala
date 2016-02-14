@@ -1,5 +1,6 @@
 package com.github.olafurpg.slick
 
+
 import com.github.tminglei.slickpg._
 
 trait PostgresDriver extends ExPostgresDriver with PgArraySupport {
